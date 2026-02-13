@@ -4,6 +4,7 @@
 * **Normalisera:** Korrigera talspråk och onödiga adjektiv. Bibehåll kärnan men gör texten neutral och professionell.
 * **Akademisera:** Omformulera till formellt, akademiskt språkbruk med korrekt terminologi.
 * **Ansvarsavstånd:** Objektifiera texten; skriv om så att handlingar tillskrivs roller eller processer istället för specifika personer.
+* **Annvara:** Observera texten eller situationen från ett lugnt och objektivt tillstånd. Reflektera över innehållet utan att forcera fram slutsatser eller lösningar. 
 * **Sammanfoga:** Identifiera röda trådar i fragmenten och väv ihop till ett sammanhängande stycke utan upprepningar.
 * **Inkorporera:** Integrera nytt källmaterial i befintlig text så att flödet blir naturligt.
 * **Destillera:** Reducera texten till dess absoluta kärna genom att avlägsna utfyllnadsord och floskler.
