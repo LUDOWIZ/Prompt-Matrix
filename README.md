@@ -11,14 +11,16 @@
 
 ---
 
-# 🌍 Global Power-Prompts (Internationell logik)
-*Instruktioner på engelska för maxad AI-precision, men med svensk output.*
+# 🌍 Global Power-Prompts
+> Instruktioner på engelska för maxad precision, med utdata på svenska.
 
-* **Logic Check (CoT):** "Reason through this step-by-step in English to ensure logical consistency, then provide the final analysis in Swedish."
-* **Negative Prompting:** "Rewrite the following without using fluff, filler words, or adjectives like 'viktigt' or 'intressant'. Focus only on cold facts. Language: Swedish."
-* **Tone Mirroring:** "Analyze the tone and style of [Sample Text]. Rewrite [New Text] to match it perfectly. Language: Swedish."
-* **Contrast Analysis:** "Compare [Text A] and [Text B]. Highlight only the conflicting information and logical gaps. Output in a Swedish Markdown table."
-* **Structural Optimization:** "Analyze the hierarchy of the following text. Restructure it for maximum clarity and scannability. Language: Swedish."
+| Teknik | Beskrivning | Prompt-kommando |
+| :--- | :--- | :--- |
+| **Logic Check (CoT)** | Tvingar AI:n till logisk slutledningsförmåga genom att resonera steg-för-steg. | *"Reason through this step-by-step in English to ensure logical consistency, then provide the final analysis in Swedish."* |
+| **Negative Prompting** | Eliminerar utfyllnadsord och subjektiva adjektiv för att nå kalla fakta. | *"Rewrite the following without using fluff, filler words, or adjectives like 'viktigt'. Focus only on cold facts. Language: Swedish."* |
+| **Tone Mirroring** | Analyserar en källtext och återskapar stilen exakt i en ny text. | *"Analyze the tone and style of [Sample Text]. Rewrite [New Text] to match it perfectly. Language: Swedish."* |
+| **Contrast Analysis** | Identifierar logiska luckor och motstridig information mellan två texter. | *"Compare [Text A] and [Text B]. Highlight only the conflicting information and logical gaps. Output in a Swedish Markdown table."* |
+| **Structural Optimization** | Analyserar informationshierarkin och strukturerar om för maximal läsbarhet. | *"Analyze the hierarchy of the following text. Restructure it for maximum clarity and scannability. Language: Swedish."* |
 
 # 💡 Prompt Library: Grundstrategier
 > En översikt över vanliga uppmaningstyper för att styra AI-modellers output.
