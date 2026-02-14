@@ -1,13 +1,15 @@
 # 🛠 Prompt Library: Text Transformation
-*Dessa används för att snabbt justera tonalitet och struktur.*
+> Verktyg för att snabbt justera textens tonalitet, struktur och objektiva skärpa.
 
-* **Normalisera:** Korrigera talspråk och onödiga adjektiv. Bibehåll kärnan men gör texten neutral och professionell.
-* **Akademisera:** Omformulera till formellt, akademiskt språkbruk med korrekt terminologi.
-* **Ansvarsavstånd:** Objektifiera texten; skriv om så att handlingar tillskrivs roller eller processer istället för specifika personer.
-* **Annvara:** Observera text/situation från ett lugnt och objektivt tillstånd. Reflektera över innehållet utan att forcera något.
-* **Sammanfoga:** Identifiera röda trådar i fragmenten och väv ihop till ett sammanhängande stycke utan upprepningar.
-* **Inkorporera:** Integrera nytt källmaterial i befintlig text så att flödet blir naturligt.
-* **Destillera:** Reducera texten till dess absoluta kärna genom att avlägsna utfyllnadsord och floskler.
+| Teknik | Beskrivning | Syfte |
+| :--- | :--- | :--- |
+| **Normalisera** | Korrigera talspråk och onödiga adjektiv. | Gör texten neutral och professionell utan att tappa kärnan. |
+| **Akademisera** | Omformulera till formellt, akademiskt språkbruk. | Säkerställer korrekt terminologi och hög stilnivå. |
+| **Ansvarsavstånd** | Objektifiera texten genom att fokusera på roller. | Flyttar fokus från specifika personer till processer och befattningar. |
+| **Annvara** | Observera texten från ett lugnt och objektivt tillstånd. | Reflektion över innehållet utan att forcera fram slutsatser. |
+| **Sammanfoga** | Identifiera röda trådar i textfragment. | Väver ihop spridda delar till ett sammanhängande stycke utan upprepningar. |
+| **Inkorporera** | Integrera nytt källmaterial i befintlig text. | Skapar ett naturligt flöde när ny information läggs till i ett befintligt underlag. |
+| **Destillera** | Reducera texten till dess absoluta kärna. | Avlägsnar utfyllnadsord och floskler för maximal precision. |
 
 ---
 
