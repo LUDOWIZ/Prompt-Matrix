@@ -1,37 +1,77 @@
-# 🛠 Prompt Library: Text Transformation
-> Verktyg för att snabbt justera textens tonalitet, struktur och objektiva skärpa.
+# 📚 Prompt Library & Text Transformation Kit
 
-| Teknik | Beskrivning | Syfte |
-| :--- | :--- | :--- |
-| **Normalisera** | Korrigera talspråk och onödiga adjektiv. | Gör texten neutral och professionell utan att tappa kärnan. |
-| **Akademisera** | Omformulera till formellt, akademiskt språkbruk. | Säkerställer korrekt terminologi och hög stilnivå. |
-| **Ansvarsavstånd** | Objektifiera texten genom att fokusera på roller. | Flyttar fokus från specifika personer till processer och befattningar. |
-| **Annvara** | Observera texten från ett lugnt och objektivt tillstånd. | Reflektion över innehållet utan att forcera fram slutsatser. |
-| **Sammanfoga** | Identifiera röda trådar i textfragment. | Väver ihop spridda delar till ett sammanhängande stycke utan upprepningar. |
-| **Inkorporera** | Integrera nytt källmaterial i befintlig text. | Skapar ett naturligt flöde när ny information läggs till i ett befintligt underlag. |
-| **Destillera** | Reducera texten till dess absoluta kärna. | Avlägsnar utfyllnadsord och floskler för maximal precision. |
+A structured library of techniques and instructions to systematically adjust tone, structure, objectivity, and clarity in any text.
 
 ---
 
-# 🌍 Global Power-Prompts
-> Instruktioner på engelska för maxad precision, med utdata på svenska.
+## 🗺️ Table of Contents
+- [General Rules](#-general-rules)
+- [Text Transformation Tools](#-text-transformation-tools)
+- [Standard Prompting Techniques](#-standard-prompting-techniques)
 
-| Teknik | Beskrivning | Prompt-kommando |
+---
+
+## ⚙️ General Rules
+
+> [!IMPORTANT]
+> **Default Output Rule**
+> Always preserve factual content unless explicitly instructed to summarize, expand, critique, or reframe.
+
+> [!NOTE]
+> **Combination Rule**
+> Instructions and tools can be combined sequentially (e.g., *Normalize* + *Simplify*) to achieve the desired output.
+
+> [!TIP]
+> **Reasoning Rule**
+> Analyze logic and consistency internally before generating the final answer. Provide only the final output unless a step-by-step explanation is explicitly requested.
+
+---
+
+## 🔄 Text Transformation Tools
+
+| Tool | Action | Purpose |
 | :--- | :--- | :--- |
-| **Logic Check (CoT)** | Tvingar AI:n till logisk slutledningsförmåga genom att resonera steg-för-steg. | *"Reason through this step-by-step in English to ensure logical consistency, then provide the final analysis in Swedish."* |
-| **Negative Prompting** | Eliminerar utfyllnadsord och subjektiva adjektiv för att nå kalla fakta. | *"Rewrite the following without using fluff, filler words, or adjectives like 'viktigt'. Focus only on cold facts. Language: Swedish."* |
-| **Tone Mirroring** | Analyserar en källtext och återskapar stilen exakt i en ny text. | *"Analyze the tone and style of [Sample Text]. Rewrite [New Text] to match it perfectly. Language: Swedish."* |
-| **Contrast Analysis** | Identifierar logiska luckor och motstridig information mellan två texter. | *"Compare [Text A] and [Text B]. Highlight only the conflicting information and logical gaps. Output in a Swedish Markdown table."* |
-| **Structural Optimization** | Analyserar informationshierarkin och strukturerar om för maximal läsbarhet. | *"Analyze the hierarchy of the following text. Restructure it for maximum clarity and scannability. Language: Swedish."* |
+| **Normalize** | Remove informal language, filler words, emotional phrasing, and unnecessary modifiers. | Produces a completely neutral, objective, and clear version of the text. |
+| **Academize** | Rewrite using professional, academic, or industry-standard terminology. | Increases formality, precision, and domain-specific alignment. |
+| **Depersonalize** | Shift focus from individuals to roles, systems, processes, or outcomes. | Reduces personal framing and enhances overall objectivity. |
+| **Observe** | Review and present content from a neutral perspective without advocating a position. | Encourages balanced examination and analytical reflection. |
+| **Merge** | Identify common themes and combine fragmented content into a coherent whole. | Improves structural continuity and eliminates redundancies. |
+| **Incorporate** | Integrate new information into existing content while maintaining flow and consistency. | Seamlessly expands, updates, or appends a text body. |
+| **Distill** | Condense content to its absolute essence without losing core meaning. | Improves clarity and filters out noise for maximum precision. |
+| **Simplify** | Rewrite using simpler vocabulary, shorter sentences, and a clearer structure. | Enhances general accessibility and ease of comprehension. |
+| **Expand** | Add relevant context, explanations, examples, or supporting details. | Increases the completeness and educational value of the text. |
+| **Extract** | Identify and isolate key facts, claims, arguments, decisions, or action items. | Enables rapid review and efficient analysis of data-dense texts. |
+| **Critique** | Evaluate structural strengths, weaknesses, assumptions, risks, and limitations. | Secures quality assurance and uncovers potential blind spots. |
+| **Reframe** | Present the same underlying data from an alternative perspective or context. | Generates alternative interpretations, angles, or problem-solving approaches. |
+| **Optimize Structure** | Reorganize content into the most logical sequence while preserving its original meaning. | Improves readability, narrative flow, and informational hierarchy. |
 
-# 💡 Prompt Library: Grundstrategier
-> En översikt över vanliga uppmaningstyper för att styra AI-modellers output.
+---
 
-| Prompttyp | Beskrivning | Exempel |
-| :--- | :--- | :--- |
-| **Nollskottsuppmaning** | Enkla instruktioner utan exempel. Bra för snabba, generella svar. | *"Sammanfatta den här artikeln i fem punkter."* |
-| **Få-skotts-uppmaning** | Innehåller exempel som AI:n ska härma för att lära sig struktur eller ton. | *"Här är två exempelsammanfattningar. Skriv en tredje i samma stil."* |
-| **Instruktionsuppmaning** | Direkta kommandon med verb (t.ex. skriv, förklara, jämför). | *"Skriv en sammanfattning av detta PM. Håll det under 100 ord."* |
-| **Rollbaserad prompt** | AI:n antar en viss persona eller synvinkel för domänspecifika svar. | *"Du är en MBA-professor som förbereder en föreläsningsplan..."* |
-| **Kontextuell uppmaning** | Inkluderar bakgrund eller inramning för att skräddarsy svaret till en målgrupp. | *"Texten är till en grundutbildning. Omformulera den på ett enklare språk."*
-| **Metaprompt** | Instruktioner på systemnivå som anger AI:ns övergripande beteende och ton. | *"Svara alltid formellt och ange riktiga källor. Gissa aldrig."* |
+## 🌍 Standard Prompting Techniques
+
+### 🧠 Logic Check
+Analyze reasoning internally and verify logical consistency before generating the response. Provide only the final, verified answer.
+
+### 🧹 Clear Formatting
+Rewrite the text completely free of fluff, marketing language, or vague adjectives. Focus exclusively on factual and verifiable information.
+
+### 🪞 Tone Mirroring
+Analyze the tone, style, structure, and vocabulary of `[Sample Text]`. Rewrite `[New Text]` to match those precise characteristics.
+
+### 📊 Contrast Analysis
+Compare `[Text A]` and `[Text B]`. Identify mutual agreements, structural conflicts, omissions, internal inconsistencies, and logical gaps. Output the results as a Markdown table.
+
+### 📐 Structural Optimization
+Restructure the text to maximize clarity and logical flow. All factual content must be preserved completely intact.
+
+### 🛡️ Evidence Audit
+Identify any claims in the text that lack citations, evidence, or logical justification. Clearly separate verified statements from assumptions and speculation.
+
+### 🔍 Consistency Check
+Scan the text to identify internal contradictions, semantic ambiguities, redundancies, or inconsistent terminology.
+
+### 📝 Executive Summary
+Produce a concise summary containing only the most critical information, key conclusions, and concrete action points.
+
+### 🗂️ Knowledge Extraction
+Convert the unstructured text into a highly organized knowledge base using bullet points, tables, core insights, entities, relationships, and action items where appropriate.
